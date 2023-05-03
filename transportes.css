@@ -141,8 +141,8 @@ display: block;
     box-sizing: border-box;
 }
 
-.pers
-ona{
+
+.persona{
     text-align: center;
 }
 
@@ -219,4 +219,51 @@ div .experiencias img{
     margin-left: 0%;
     width: 53%;
   }
+
+.contacto{
+    font-size:xx-large;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.textocontacto{
+font-size:x-large;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button{
+display: inline-flex;
+}
+
+.botonform{
+background-color: burlywood;
+}
+
+.formulariocontacto{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0.6em;
+display:inline-block;
+}
+
+
+
+.area { 
+    display: inline-flex;
+}
+.nro {
+    width : 50px;
+  padding: 0;
+  margin: 0;
+  box-sizing:content-box;
+}
+
+#exampleCheck1{
+box-sizing: border-box; 
+border-bottom: #070707;
+}
+
+.resultadoform{
+    display: inline-block;
 }
