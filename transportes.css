@@ -3,6 +3,7 @@ body{
     font-size: 16px;
     line-height: 20px;
     overflow-x: hidden;
+    background-color: #20c256dc;
 }
 
 header{
@@ -176,6 +177,11 @@ form{
     margin-right: -18%;
 }
 
+input {
+    float: right;
+    margin-top: 35px;
+    border-radius: 20px;
+}
 
 h2 .subtitulo1 .linea1 {
         background-color: darkgoldenrod;
@@ -209,7 +215,10 @@ div .experiencias img{
 
 
 .prueba{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .tengosueño h3 br{
