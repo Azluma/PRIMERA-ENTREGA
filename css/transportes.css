@@ -178,7 +178,7 @@ h2 .subtitulo2 .linea2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: calc(1.325rem + .9vw);
     text-align: center;
-    width: 53%;
+   
 }
 
 
@@ -200,15 +200,19 @@ conteiner {
 
 
 
+.containerTextDestinos{
+    text-align: center;
+    margin-left: 200px;
+}
 
-
-
+ 
 
 .cardsDestinos h3 br{
     background-color: darkgoldenrod;
     height: 10px;
     margin-left: 0%;
     width: 53%;
+    
   }
 
 .contacto{
@@ -255,12 +259,19 @@ box-sizing: border-box;
 border-bottom: #070707;
 }
 
-.resultadoform{
+.resultadoform {
     display: inline-block;
     text-align: center;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-block-end: 20px;
 }
 
-
+.textoform{
+    width: 100%;
+    text-align: justify;
+    margin-left: auto;
+}
 
 
 .containerCombos{
@@ -274,6 +285,7 @@ border-bottom: #070707;
  
  .listaindex{
  margin-top: 20px;
+ text-align: left;
 }
 
 .tituloCombo{
@@ -390,5 +402,10 @@ div .experiencias img{
 
   .card-text{
     margin-top: 20px;
+    margin-left: 25px;
+    font-family: monospace;
   }
 
+main{
+    text-align: center;
+}
